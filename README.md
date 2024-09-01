@@ -12,7 +12,7 @@ docker build -t comfy:0.1.0 .
 start a ComfyUI instance
 ```bash
 # specify the model and output directories
-cat >> ./comfy.env << EOF
+cat > ./comfy.env << EOF
 COMFY_MODEL_DIR=/my/model/dir
 COMFY_OUT_DIR=/my/out/dir
 EOF
