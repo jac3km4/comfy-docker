@@ -1,0 +1,13 @@
+shared:
+  base_path: /data
+
+  checkpoints: checkpoints
+  configs: configs
+  vae: vae
+  loras: loras
+  upscale_models: upscale
+  embeddings: embeddings
+  hypernetworks: hypernetworks
+  controlnet: controlnets
+  unet: unet
+  clip: clip
