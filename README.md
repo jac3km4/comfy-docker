@@ -9,6 +9,7 @@ docker build -t comfy:0.1.0 .
 ```
 
 # use
+start a ComfyUI instance
 ```bash
 # specify the model and output directories
 cat >> ./comfy.env << EOF
@@ -19,7 +20,6 @@ EOF
 ./run.sh
 ```
 
-# customize
 update ComfyUI
 ```bash
 ./run.sh git pull
